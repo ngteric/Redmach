@@ -13,7 +13,7 @@
 
 			var w = redmach.webgl;
 
-			var imagePrefix = "../assets/";
+			var imagePrefix = "./assets/";
 			var urls = [imagePrefix + "px.jpg",imagePrefix + "nx.jpg", imagePrefix + "py.jpg", imagePrefix + "ny.jpg",imagePrefix + "pz.jpg",imagePrefix + "nz.jpg"];
 
 			w.textureCube = new THREE.CubeTextureLoader();

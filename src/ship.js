@@ -34,7 +34,7 @@
 				
 			w.loader = new THREE.JSONLoader();
 
-			w.loader.load("../models/ship.json",function(geometry) {
+			w.loader.load("./models/ship.json",function(geometry) {
 
 				var material = new THREE.MeshPhongMaterial({
 					color:0xff0000,
