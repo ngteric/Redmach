@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'AgharaStdRegular';
+    src: url('fonts/AgharaStdRegular.eot');
+    src: url('fonts/AgharaStdRegular.eot') format('embedded-opentype'),
+         url('fonts/AgharaStdRegular.woff2') format('woff2'),
+         url('fonts/AgharaStdRegular.woff') format('woff'),
+         url('fonts/AgharaStdRegular.ttf') format('truetype'),
+         url('fonts/AgharaStdRegular.svg#AgharaStdRegular') format('svg');
+}
+
+#gameover{
+	display:none;
+	position:absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.2);
+	z-index: 999;
+	color:#fff;
+	text-align: center;
+}
+
+#gamestart{
+	position:absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.2);
+	z-index: 999;
+	color:#fff;
+	text-align: center;
+}
+#gamestart button, #gameover button{
+	background-color: #ff0000;
+	border:none;
+	font-family: "Lato",arial,sans-serif;
+	font-size: 1.3rem;
+	color:#fff;
+	padding:10px 30px;
+	cursor:pointer;
+}
+
+#score{
+	display:none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 999;
+	color:#fff;
+	font-family: 'AgharaStdRegular',arial,sans-serif;
+	font-size: 2rem;
+}
+
+.score{
+	display:block;
+	font-family: 'AgharaStdRegular',arial,sans-serif;
+	font-size: 2rem;
+}
+
+#interface{
+	display:block;
+	position:absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 999;
+}
+
+#interface img{
+	width:50%;
+	float:right;
+}
+
+.version{
+	position:absolute;
+	bottom: 0;
+	left: 10px;
+	font-family:arial,sans-serif;
+	color:#fff;
+}
+
+#level{
+	position:absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color:#fff;
+	z-index:500;
+	text-align: center;
+	font-family: 'AgharaStdRegular',arial,sans-serif;
+	font-size: 2rem;
+}
